@@ -1,22 +1,37 @@
-/* Mulai code Anda dari baris terakhir */
-
 * {
   box-sizing: border-box;
 }
 
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
-  margin: 0;
-  padding: 0;
-}
-
 body {
+  margin: 0;
   font-family: "Lucida Grande";
 }
 
 a {
   text-decoration: none;
+}
+
+.team-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.team {
+  float: left;
+  width: 20%;
+}
+
+.team-icon {
+  position: relative;
+}
+
+.team-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
 }
 
 .clear {
@@ -25,13 +40,14 @@ a {
 
 .container {
   max-width: 1170px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-image: url(gambar2.jpg);
   background-size: cover;
   color: white;
   text-align: center;
@@ -108,12 +124,12 @@ header {
 
 .header-right {
   float: right;
-  margin-right: 25px;
+  margin-right: -25px;
 }
 
 .header-right a {
   line-height: 65px;
-  padding: 0 50px;
+  padding: 0 25px;
   color: white;
   display: block;
   float: left;
@@ -123,6 +139,17 @@ header {
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
+
 
 .lesson-wrapper {
   padding-bottom: 80px;
@@ -158,7 +185,7 @@ header {
   color: white;
 }
 
-.txt-contents {
+.text-contents {
   width: 80%;
   display: inline-block;
   margin-top: 15px;
@@ -202,13 +229,3 @@ footer {
   padding-top: 30px;
   padding-bottom: 20px;
 }
-
-/* Ketik code Anda dibawah */
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
-}
-
