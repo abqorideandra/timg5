@@ -129,7 +129,7 @@ header {
 
 .header-right a {
   line-height: 65px;
-  padding: 0 40px;
+  padding: 0 50px;
   color: white;
   display: block;
   float: left;
@@ -145,7 +145,7 @@ header {
   color: white;
   float: right;
   font-size: 25px;
-  padding: 21px 0;
+  padding: 15px 0;
   /* Gantikan property display ke none */
   display: none;
 }
