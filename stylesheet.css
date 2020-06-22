@@ -120,6 +120,11 @@ header {
 
 .header-left {
   float: left;
+  color: white;
+}
+
+.header-left span{
+  color: #5383d3;
 }
 
 .header-right {
